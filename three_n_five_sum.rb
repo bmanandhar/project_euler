@@ -16,7 +16,7 @@ def three_n_five_sum(num)
 
   sum
 end
-p three_n_five_sum(10)
+p three_n_five_sum(100) == 2003
 
 #using "while" loop
 def three_n_five_sum(num)
@@ -36,4 +36,4 @@ def three_n_five_sum(num)
 
   sum
 end
-p three_n_five_sum(10)
+p three_n_five_sum(10) == 23 

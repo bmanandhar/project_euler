@@ -7,7 +7,7 @@ Result:
 def largest_prime_factor(num)
   factors = []
   prime_large = nil
-  (1...num).each do |i|
+  (1..num).each do |i|
     factors << i if num % i == 0
   end
 

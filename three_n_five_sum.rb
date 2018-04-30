@@ -38,3 +38,5 @@ def three_n_five_sum(num)
   sum
 end
 p three_n_five_sum(10) == 23
+p three_n_five_sum(100) == 2003
+p three_n_five_sum(10000) == 20000003

@@ -30,4 +30,4 @@ def is_prime?(n)
   end
   arr.length == 2
 end
-p largest_prime_factor(201)
+p largest_prime_factor(13195) == 29

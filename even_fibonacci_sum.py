@@ -15,4 +15,4 @@ def even_fibonacci_sum(limit):
             sum += y
         x, y = y, x + y
     return sum
-print even_fibonacci_sum(150)
+print even_fibonacci_sum(150) == 188 
